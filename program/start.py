@@ -84,7 +84,7 @@ async def start_(c: Client, message: Message):
     user_id = message.from_user.id
     await add_served_user(user_id)
     await message.reply_text(
-        https://telegra.ph/file/d6ff45f5be2b42fcc2ffb.jpg
+
         f"""Hi {message.from_user.mention()} 👋🏻\n
 💭 [{me_bot.first_name}](https://t.me/{me_bot.username}) is a bot to play music and video in groups, through the new Telegram video chats.
 
